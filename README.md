@@ -1,6 +1,11 @@
 # TechNews
 
+This application allows you to view the latest technology news
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+
+## Link
+[TechNews](https://tech-news-ac37d.web.app)
 
 ## Development server
 
