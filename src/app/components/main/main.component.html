@@ -1,0 +1,13 @@
+<div class="bg-dark min-vh-100 py-4 ">
+  <h1 class="display-1 text-light text-center py-4">Latest tech news:</h1>
+
+  <div class="container-fluid">
+    <div class="row ">
+        <app-card class="col-12 d-flex justify-content-center" *ngFor="let news of newsList" [newsDetail]="news"></app-card>
+    </div>
+
+    <div class="row justify-content-center">
+      <button type="button" class="d-flex my-4 btn btn-lg btn-secondary" (click)="loadMore()">Load more</button>
+    </div>
+  </div>
+</div>
